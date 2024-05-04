@@ -1,6 +1,14 @@
 import tensorflow as tf
 print(tf.__version__)
 
+class myCallback(tf.keras.callbacks.Callback):
+  def on_epoch_end(self, epoch, logs={}):
+    if(logs.get('accuracy')>0.95):
+      print("\nReached 95% accuracy so cancelling training!")
+      self.model.stop_training = True
+
+callbacks = myCallback()
+
 mnist = tf.keras.datasets.fashion_mnist
 
 # Calling load_data on that object gives you two sets of two lists: training values and testing values, which represent graphics that show clothing items and their labels.
@@ -31,7 +39,7 @@ model.compile(optimizer = tf.keras.optimizers.Adam(),
               loss = 'sparse_categorical_crossentropy',
               metrics=['accuracy'])
 
-model.fit(training_images, training_labels, epochs=5)
+model.fit(training_images, training_labels, epochs=5, callbacks=[callbacks])
 
 
 model.evaluate(test_images, test_labels)
