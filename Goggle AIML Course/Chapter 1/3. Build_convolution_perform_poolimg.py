@@ -14,7 +14,7 @@ i_transformed = np.copy(i)
 size_x = i_transformed.shape[0]
 size_y = i_transformed.shape[1]
 
-# This filter detects edges nicely
+# This filter detects edges nicely.
 # It creates a filter that only passes through sharp edges and straight lines. 
 filter = [ [-1, -2, -1], [0, 0, 0], [1, 2, 1]]
 # If all the digits in the filter don't add up to 0 or 1, you 
