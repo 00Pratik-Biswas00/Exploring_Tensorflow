@@ -1,6 +1,6 @@
 ## Course link ->
 
-https://developers.google.com/learn/pathways/tensorflow#codelab-https://developers.google.com/codelabs/tensorflow-2-computervision
+https://developers.google.com/learn/pathways/get-started-object-detection?hl=en#codelab-https://codelabs.developers.google.com/mlkit-android-odt
 
 ## Answers
 
