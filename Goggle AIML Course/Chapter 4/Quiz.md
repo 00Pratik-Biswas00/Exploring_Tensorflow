@@ -1,6 +1,6 @@
 ## Course link ->
 
-https://developers.google.com/learn/pathways/going-further-object-detection?hl=en#quiz-/learn/pathways/quizzes/go-further-object-detection/go-further-object-detection
+https://developers.google.com/learn/pathways/get-started-image-product-search?hl=en
 
 ## Answers
 
