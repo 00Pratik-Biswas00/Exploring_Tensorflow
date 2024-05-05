@@ -32,7 +32,7 @@ test_loss, test_accuracy = model.evaluate(test_images, test_labels)
 print ('Test loss: {}, Test accuracy: {}'.format(test_loss, test_accuracy*100))
 
 
-# Visualize the convolutions and pooling
+# Visualize the convolutions and pooling.
 
 
 print(test_labels[:100])
