@@ -1,4 +1,4 @@
-# Relationship - y = 3x+1
+# Relationship - y = 3x+1.
 
 import tensorflow as tf
 import numpy as np
