@@ -1,6 +1,6 @@
 ## Course link ->
 
-https://developers.google.com/learn/pathways/going-further-image-product-search?hl=en#quiz-/learn/pathways/quizzes/go-further-product-image-search/go-further-product-image-search
+https://developers.google.com/learn/pathways/going-further-image-classification?hl=en#quiz-/learn/pathways/quizzes/go-further-image-classification/go-further-image-classification
 
 ## Answers
 
